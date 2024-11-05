@@ -1,0 +1,496 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="seedlink/css/bootstrap.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="seedlink/css/style.css">
+    <!--Style css file-->
+    <link rel="stylesheet" href="seedlink/css/all.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <title>SeedLink</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <!-- navbar  -->
+
+
+
+        <nav class="navbar navbar-expand-lg px-4">
+            <a href="index.html" class="logo"><i class="uil uil-pagelines"></i> NOBLE CAUSE</a>
+            <div class="collapse navbar-collapse" id="myNav">
+                <ul class="navbar-nav mx-auto text-capitalize">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#about">ABOUT</a>
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link " href="index.html#ourwork">OUR WORK</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="index.html#project">PROJECTS</a></li>
+                    <li class="nav-item"><a class="nav-link " href="contact.html">CONTACT</a></li>
+
+                   
+                </ul>
+                <div class="nav-info-items d-none d-lg-flex ">
+                    <!-- single info -->
+                    <div class="nav-info align-items-center d-flex justify-content-between mx-lg-5">
+                        <span class="info-icon mx-lg-3"><i class="fas fa-phone"></i></span>
+                        <p class="mb-0">+91 9876543210</p>
+                    </div>
+                    <!-- end of single info -->
+                    <!-- single info -->
+                    <div id="cart-info" class="nav-info align-items-center cart-info d-flex justify-content-between mx-lg-5">
+                        <span class="cart-info__icon mr-lg-3"><i class="fas fa-shopping-cart"></i></span>
+                        <p class="mb-0 text-capitalize"><span id="item-count">0 </span> items - ₹<span class="item-total">0.0</span></p>
+                    </div>
+                    <!-- end of single info -->
+                </div>
+            </div>
+        </nav>
+        <!-- end of nav -->
+        <!-- banner  -->
+        <div class="container-fluid">
+            <div class="row max-height justify-content-center align-items-center">
+                <div class="col-10 mx-auto banner text-center">
+                    <h1 class="heading">SEEDLINK</strong>
+                    </h1>
+                    <h2 class="sell">"SHOP, SUPPORT & GROW"</h2>
+
+
+                </div>
+                <div id="cart" class="cart">
+                    
+                    
+                    <!-- cart total -->
+                    <div class="cart-total-container d-flex justify-content-around text-capitalize mt-5">
+                        <h5>total</h5>
+                        <h5> ₹ <strong id="cart-total" class="font-weight-bold">0.00</strong> </h5>
+                    </div>
+                    <!--end cart total -->
+                    <!-- cart buttons -->
+                    <div class="cart-buttons-container mt-3 d-flex justify-content-center"> <!-- Changed justify-content-between to justify-content-center -->
+                        <a href="pdf.html" id="clear-cart" class="btn btn-outline-secondary btn-black text-uppercase">Buy to Donate</a>
+                    </div>
+                    
+                    <!--end of  cart buttons -->
+                    <!--  -->
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!--end of  banner  -->
+    </header>
+    <!-- header -->
+    <!-- about us -->
+    <section class="about py-5" id="about">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-10 mx-auto col-md-6 my-5">
+                    <h1><strong class="banner-title ">WHY IT MATTERS?</strong></h1>
+                    <p class="my-4 text-muted w-75">By purchasing plants from our platform, you're not just acquiring greenery; you're extending a helping hand to those in need. Your contribution doesn't just beautify your space; it provides crucial support to underserved communities. Join us in planting seeds of hope and compassion. Your donation matters.</p>
+
+
+                </div>
+                <div class="col-10 mx-auto col-md-6 align-self-center my-5">
+                    <div class="about-img__container">
+                        <img src="seedlink/img/project-img5.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end of about us -->
+
+
+    <!-- store -->
+    <section id="store" class="store py-5">
+        <div class="container">
+            <!-- section title -->
+            <div class="row">
+                <div class="col-10 mx-auto col-sm-6 text-center">
+                    <h1 class="text-capitalize">Our Products</strong>
+                    </h1>
+                </div>
+            </div>
+            <!-- end of section title -->
+            <!-- store  items-->
+            <div class="row" class="store-items" id="store-items">
+                <!-- single item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+                    <div class="card ">
+                        <div class="img-container">
+                            <img src="seedlink/img/product-img1.jpg" class="card-img-top store-img" alt="">
+                            <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="store-item-name">DAHLIA PLANT</h5>
+                                <h5 class="store-item-value">₹ 150</h5>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+                <!-- single item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item cupcakes" data-item="cupcakes">
+                    <div class="card ">
+                        <div class="img-container">
+                            <img src="seedlink/img/product-img2.jpg" class="card-img-top store-img" alt="">
+                            <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="store-item-name">DAFFODIL PLANT</h5>
+                                <h5 class="store-item-value">₹ 150</h5>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+                <!-- single item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item cakes" data-item="cakes">
+                    <div class="card ">
+                        <div class="img-container">
+                            <img src="seedlink/img/product-img3.jpg" class="card-img-top store-img" alt="">
+                            <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="store-item-name">PEACE LILY</h5>
+                                <h5 class="store-item-value">₹ 150</h5>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+                <!-- single item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item doughnuts" data-item="dougnuts">
+                    <div class="card ">
+                        <div class="img-container">
+                            <img src="seedlink/img/product-img4.jpg" class="card-img-top store-img" alt="">
+                            <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="store-item-name">GOLDEN POTHOS</h5>
+                                <h5 class="store-item-value">₹ 150</h5>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+                <!-- single item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+                    <div class="card ">
+                        <div class="img-container">
+                            <img src="seedlink/img/product-img5.jpg" class="card-img-top store-img" alt="">
+                            <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="store-item-name">MAGNOLIA</h5>
+                                <h5 class="store-item-value">₹ 350</h5>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+                <!-- single item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item cupcakes" data-item="cupcakes">
+                    <div class="card ">
+                        <div class="img-container">
+                            <img src="seedlink/img/product-img6.jpg" class="card-img-top store-img" alt="">
+                            <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="store-item-name">ROSE PLANT</h5>
+                                <h5 class="store-item-value">₹ 250</h5>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+                <!-- single item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item cakes" data-item="cakes">
+                    <div class="card ">
+                        <div class="img-container">
+                            <img src="seedlink/img/product-img7.jpg" class="card-img-top store-img" alt="">
+                            <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="store-item-name">TULSI PLANT</h5>
+                                <h5 class="store-item-value">₹ 250</h5>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+                <!-- single item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item doughnuts" data-item="dougnuts">
+                    <div class="card ">
+                        <div class="img-container">
+                            <img src="seedlink/img/product-img8.jpg" class="card-img-top store-img" alt="">
+                            <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="store-item-name">MONEY PLANT</h5>
+                                <h5 class="store-item-value">₹ 250</h5>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+                <!-- single item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+                    <div class="card ">
+                        <div class="img-container">
+                            <img src="seedlink/img/product-img9.jpg" class="card-img-top store-img" alt="">
+                            <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="store-item-name">TOMATO PLANT</h5>
+                                <h5 class="store-item-value">₹ 350</h5>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+                <!-- single item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item cupcakes" data-item="cupcakes">
+                    <div class="card ">
+                        <div class="img-container">
+                            <img src="seedlink/img/product-img10.jpg" class="card-img-top store-img" alt="">
+                            <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="store-item-name">HYDRANGEA PLANT</h5>
+                                <h5 class="store-item-value">₹ 350</h5>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+                <!-- single item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item cakes" data-item="cakes">
+                    <div class="card ">
+                        <div class="img-container">
+                            <img src="seedlink/img/product-img11.jpg" class="card-img-top store-img" alt="">
+                            <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="store-item-name">ALOE VERA PLANT</h5>
+                                <h5 class="store-item-value">₹ 350</h5>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+                <!-- single item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item doughnuts" data-item="dougnuts">
+                    <div class="card ">
+                        <div class="img-container">
+                            <img src="seedlink/img/product-img12.jpg" class="card-img-top store-img" alt="">
+                            <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="store-item-name">STRAWBERRY PLANT</h5>
+                                <h5 class="store-item-value">₹ 350</h5>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+
+            </div>
+    </section>
+    <!--end of store items -->
+    <form id="add-to-cart-form">
+        <input type="hidden" name="username" value="<?php echo $username; ?>"> <!-- Assuming you have the username in PHP session -->
+        <input type="hidden" name="product_id" value="1"> <!-- Example product ID -->
+        <input type="number" name="quantity" value="1" min="1">
+        <button type="submit" name="add_to_cart">Add to Cart</button>
+    </form>
+    
+    <script>
+    document.getElementById('add-to-cart-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+    
+        const formData = new FormData(this);
+        fetch('path_to_your_php_file.php', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.text())
+        .then(data => {
+            alert(data);
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    });
+    </script>
+    
+    <section class="messages-item">
+        <div class="item-requests">
+            <input type="text" class="message-text" placeholder="Submit your service requests">
+            <div class="the-button">
+                <a href="seedlink.html"><button class="btn3">SUBMIT</button></a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Bottom Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>LeafNow</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="index.html#projects">Our Projects</a></li>
+                        <li><a href="seedlink.html">SeedLink</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#">Buy Plants</a></li>
+                        <li><a href="#">Sell Plants</a></li>
+                        <li><a href="#">Donate Plants</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- jquery -->
+    <script src="seedlink/js/jquery-3.3.1.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="seedlink/js/bootstrap.bundle.min.js"></script>
+    <!-- script js -->
+    <script src="seedlink/js/app.js"></script>
+</body>
+header("Location: display_messages.php");
+</html>
